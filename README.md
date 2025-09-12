@@ -128,6 +128,7 @@ This project uses **Spring Boot 3.x** (compatible with Java 17+), Maven for buil
 📊 **Project File Structure Drawing** (ASCII Art Tree):  
 Here's a visual representation of the project's directory structure. Imagine this as your root folder named `spring-security-postgres-demo`.  
 
+'''
 spring-security-postgres-demo/
 ├── pom.xml 📄 (Maven build file with dependencies)
 ├── src/
@@ -152,7 +153,7 @@ spring-security-postgres-demo/
 │   │       └── data.sql 💾 (SQL script to insert initial users)
 │   └── test/ (Optional, but we skip tests for simplicity)
 └── README.md 📖 (This file you're reading!)
-
+'''
 
 
 That's all the files needed—kept minimal to focus on Spring Security + Postgres integration. No extra bloat!  
