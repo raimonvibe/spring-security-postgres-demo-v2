@@ -1,9 +1,8 @@
 # Spring Security PostgreSQL Demo v2
 
-## 🌐 Live Demo
-**[🚀 Visit Spring Security PostgreSQL Demo](https://github.com/raimonvibe/spring-security-postgres-demo-v2)**
 
-![Spring Security PostgreSQL Demo](./demo-screenshot.png)
+
+![Spring Security PostgreSQL](./demo-screenshot.png)
 
 A comprehensive full-stack authentication demo showcasing Spring Boot 3.x with Spring Security and PostgreSQL integration, paired with a modern Next.js frontend.
 
