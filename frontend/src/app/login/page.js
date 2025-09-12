@@ -23,7 +23,7 @@ export default function Login() {
     formData.append('username', username);
     formData.append('password', password);
 
-    const res = await fetch('http://localhost:8080/login', {
+    const res = await fetch('http://localhost:8080/perform_login', {
       method: 'POST',
       body: formData,
       credentials: 'include',  // For session cookies

@@ -64,7 +64,7 @@ public class SecurityConfig {
                 .permitAll()  // Allow anyone to logout
             )
             // Disable CSRF for simplicity in this demo; enable in production!
-            .csrf(Customizer.withDefaults());
+            .csrf(csrf -> csrf.disable());
 
         return http.build();
     }
